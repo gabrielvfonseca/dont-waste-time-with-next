@@ -19,7 +19,12 @@
   "name": "with-tailwind",
   "packageManager": "yarn@1.22.19",
   "workspaces": [
+    "ui",
     "apps/*",
     "packages/*"
-  ]
+  ],
+  "dependencies": {
+    "clsx": "^2.1.1",
+    "tailwind-merge": "^2.5.2"
+  }
 }
